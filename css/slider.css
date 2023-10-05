@@ -1,0 +1,144 @@
+
+.sectionTitle{
+    color: #072907;
+    background-color: #072907;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.descTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+
+}
+.descTitle:hover{
+    color: limegreen;
+}
+article{
+    flex: 1 200px;
+}
+.resTitle{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 1%;
+      
+}
+.row{
+    padding: 10px;
+    flex-wrap: wrap;
+
+    
+ 
+}
+.resContent{
+    padding: 10px;
+    margin: 30px;
+}
+
+/*PROJECT STYLES */
+
+.project1{
+    background-color: #008037;
+    color: white;
+    margin: 10px;
+    flex: 1 200px;
+}
+
+.project2{
+    background-color: #1E4424;
+    color: white;
+    margin: 10px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap-reverse;
+    
+  }
+
+  .imgControl {
+    max-height: 50%;
+  }
+
+.Addtocart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cartButton{
+    background-color: #1E4424;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    border: none;
+    padding: 15px;
+}
+.cartButton:hover{
+    background-color: rgb(2, 46, 109);
+    color: white;
+    border: 0px;
+  }
+.descitem{
+    font-size: 20px;
+    padding: 1px;
+}
+
+#hiddenCartStuff{
+    display: flex;
+    display: none;
+}
+
+article{
+    flex: 1 200px;
+
+}
+.centerContent{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cartTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*TABLE STYLES*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .resumeDownload{
+    font-size: larger;
+    color:  #1E4424;
+    text-decoration: none;
+  }
+  .resumeDownload:hover{
+    background-color: #072907;
+    color: white;
+    border: 0px;
+    padding: 10px;
+  }
